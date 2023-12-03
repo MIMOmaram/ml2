@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
-from scikit-learn import datasets
-from scikit-learn.ensemble import RandomForestClassifier
+from sklearn import datasets
+from sklearn.ensemble import RandomForestClassifier
 
 st.write('''
 # App Simple pour la prévision des fleurs d'Iris
